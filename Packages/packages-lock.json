@@ -66,7 +66,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.pico.livepreview": {
-      "version": "file:C:/Users/Tomislav/Downloads/New folder",
+      "version": "file:C:/Users/fkali/Downloads/Unity Live Preview Plugin-1.0.3-20240902",
       "depth": 0,
       "source": "local",
       "dependencies": {
@@ -245,7 +245,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.xr.openxr.picoxr": {
-      "version": "file:C:/Users/Tomislav/Downloads/New folder (2)",
+      "version": "file:C:/Users/fkali/Downloads/PICO Unity OpenXR Integration SDK-1.2.1_20240905",
       "depth": 0,
       "source": "local",
       "dependencies": {
