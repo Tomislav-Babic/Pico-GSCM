@@ -7264,9 +7264,9 @@ AnimationClip:
   m_HasMotionFloatCurves: 0
   m_Events:
   - time: 18.75
-    functionName: ProjectTrigger
+    functionName: AddScene2
     data: 
-    objectReferenceParameter: {fileID: 11500000, guid: 450c548098d33c24b951858d8562e4fc,
+    objectReferenceParameter: {fileID: 11500000, guid: 1dcb0b8bf00234a458400eb2a500e55d,
       type: 3}
     floatParameter: 0
     intParameter: 0

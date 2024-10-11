@@ -4,10 +4,11 @@ using UnityEngine;
 
 public class TriggerProjection : MonoBehaviour
 {
-    public GameObject projection;
+    
     
     public void ProjectTrigger()
     {
-        projection.SetActive(true);
+        
+
     }
 }
