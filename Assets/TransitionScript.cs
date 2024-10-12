@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class TransitionScript : MonoBehaviour
 {
     public static TransitionScript Instance;
+    public GameObject player;
     private void Awake()
     {
         Instance = this;

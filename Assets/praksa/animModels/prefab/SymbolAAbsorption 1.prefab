@@ -406,6 +406,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nextPoints: []
   istriggered: 0
+  audioSources: []
 --- !u!135 &5752919566882474683
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -561,6 +562,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nextPoints: []
   istriggered: 0
+  audioSources: []
 --- !u!135 &4001123906516625715
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -950,6 +952,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nextPoints: []
   istriggered: 0
+  audioSources: []
 --- !u!135 &8619975567629427166
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1139,6 +1142,7 @@ MonoBehaviour:
   - {fileID: 7386134829401602075}
   - {fileID: 5496807827134765089}
   istriggered: 0
+  audioSources: []
 --- !u!135 &3768495050501711251
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1653,6 +1657,7 @@ MonoBehaviour:
   nextPoints:
   - {fileID: 3292641267716703942}
   istriggered: 0
+  audioSources: []
 --- !u!135 &7040670304234667524
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -2190,6 +2195,7 @@ MonoBehaviour:
   nextPoints:
   - {fileID: 3281101457300968055}
   istriggered: 0
+  audioSources: []
 --- !u!135 &5718360307402493526
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -2441,7 +2447,6 @@ GameObject:
   - component: {fileID: 9222527395380341233}
   - component: {fileID: 5472939739912332867}
   - component: {fileID: 5336054500820220506}
-  - component: {fileID: 3091864363223538849}
   - component: {fileID: 7405644293424272663}
   m_Layer: 0
   m_Name: Top
@@ -2564,21 +2569,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nextPoints: []
   istriggered: 0
---- !u!114 &3091864363223538849
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8354558767575397113}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bd013850362d2c7439a83fa40683c125, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nextPoints:
-  - {fileID: 6316091095469431028}
-  istriggered: 0
+  audioSources: []
 --- !u!135 &7405644293424272663
 SphereCollider:
   m_ObjectHideFlags: 0
