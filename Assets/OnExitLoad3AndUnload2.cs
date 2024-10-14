@@ -17,7 +17,7 @@ public class OnExitLoad3AndUnload2 : MonoBehaviour
         audioSourceC.Play();
         audioSourceM.Play();
         animator.SetTrigger("anistart");
-        SoundManager.Instance.VolumeSource(SoundManager.Instance.ambientlvl1, 0.4f);
+        SoundManager.Instance.VolumeSource(SoundManager.Instance.ambientlvl1, 0.1f);
         TransitionScript.Instance.RemoveScene();
         StartCoroutine(CheckIfPlaying());
 
