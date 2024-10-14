@@ -8,6 +8,7 @@ public class OnExitLoad3AndUnload2 : MonoBehaviour
     public AudioSource audioSourceM;
     bool isOut;
     GameObject player;
+    public Animator animator;
     
 
     private void OnEnable()
@@ -15,6 +16,7 @@ public class OnExitLoad3AndUnload2 : MonoBehaviour
         player=GameObject.FindGameObjectWithTag("MainCamera");
         audioSourceC.Play();
         audioSourceM.Play();
+        animator.SetTrigger("anistart");
         SoundManager.Instance.VolumeSource(SoundManager.Instance.ambientlvl1, 0.4f);
         TransitionScript.Instance.RemoveScene();
         StartCoroutine(CheckIfPlaying());
